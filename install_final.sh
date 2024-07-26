@@ -482,8 +482,8 @@ sudo systemctl enable BTBTelegram${BinanceFolder}.service
 #
 cat <<EOF >${WorkingDirectoryBot}/user.cfg 
 [binance_user_config]
-api_key=7WeHHGXrTer78vS3XHSlw6pGcxRrfHUG58ccpFBTvutXr5EItbRff5ZEWsmH0cEv
-api_secret_key=prXRUNPMYfDIOQDvAJ2eJJOjOR2ggRznCfXUrRlXGDAdqkszdWXbc7gcM6cPrtGF
+api_key=
+api_secret_key=
 current_coin=
 bridge=USDT
 tld=com
@@ -551,7 +551,7 @@ version: 1
 # For example a telegram URL would look like:
 # - tgram://123456789:AABx8iXjE5C-vG4SDhf6ARgdFgxYxhuHb4A/-606743502
 urls:
-- tgram://7408135097:AAEqTN5rGMMJgSoJE67Oto_vVZ7K_y6hXr4/6779877469
+- tgram://TOKEN/CHATID
   # - discord://WebhookID/WebhookToken/
   # - slack://tokenA/tokenB/tokenC
   # More options here: https://github.com/caronc/apprise
